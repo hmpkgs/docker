@@ -10,7 +10,7 @@ let
   package = pkgs.stdenv.mkDerivation rec {
     name = "Docker.app";
     src = pkgs.fetchurl {
-      url = "https://download.docker.com/mac/stable/Docker.dmg";
+      url = "https://download.docker.com/mac/stable/1.12.1.12133/Docker.dmg";
       sha256 = "13qamjb9g1k093i2fn1x5dqlfq828w1zqyww6k9m0xpckd5fd2j8";
     };
 
